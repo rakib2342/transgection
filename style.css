@@ -1,0 +1,93 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pexels-cottonbro-5076531.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    color:#01ab97;
+}
+.progress{
+    margin: 200px auto;
+}
+
+
+.progress img{
+   width: 80px;
+   margin-bottom: 20px;
+  
+}
+ ul{
+     text-align: center;
+ }
+ ul li{
+     display: inline-block;
+     width: 180px;
+     position: relative;
+ }
+ ul li .far{
+     background: #ccc;
+     width: 16px;
+     height: 16px;
+     color: #fff;
+     border-radius: 50%;
+     padding: 5px;
+ }
+ ul li .fas{
+    background: #ccc;
+    width: 16px;
+    height: 16px;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+}
+ul li .far::after{
+    content: '';
+    background: #ccc;
+    height: 5px;
+    width: 205px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 115px;
+    z-index: -1;
+}
+ul li .fas::after{
+    content: '';
+    background: #ccc;
+    height: 5px;
+    width: 205px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 115px;
+    z-index: -1;
+}
+ul li:nth-child(3) .fas{
+    background: #148e14;
+}
+ul li:nth-child(3) .fas::after{
+    background: #148e14;
+}
+ul li:nth-child(1) .far,
+ul li:nth-child(2) .far{
+    background: #60aa97;
+}
+ul li:nth-child(1) .far::after,
+ul li:nth-child(2) .far::after{
+    background: #60aa97;
+} 
+ul li:first-child .far::after{
+    width: 105px;
+    left: 100px;
+}
+ul li:last-child .far::after{
+    width: 103px;
+}
+.rakib{
+    
+}
+
+
+ 
+ 
+
+ 
